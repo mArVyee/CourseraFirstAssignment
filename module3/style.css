@@ -1,0 +1,92 @@
+
+.container-fluid{
+    margin-top:  30px;
+    
+    font-size: 2em;
+    margin: auto;
+    
+}
+#header-nav{
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bolder;
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    
+}
+button.navbar-toggle{
+    margin-bottom: 20px;
+    
+}
+
+#nav-list a{
+    text-align: center;
+    background-color: brown;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#nav-list a:hover{
+    background-color: aqua;
+}
+button.navbar-toggle{
+    border: 4px solid red;
+}
+.navbar-brand h4 {
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;   
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f ;
+    
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+.glyphicon{
+    margin-right: 5px;
+}
+
+.chicken-tile, .beef-tile, .sushi-tile{
+    background-color: brown;
+    margin-bottom: 15px;
+    color: black;
+    position: relative;
+    padding: 30px;
+    border: 1px solid black;
+    font-style: italic;
+}
+.name{
+    color: blue;
+    font-size: 20px;
+    align-items: center;
+    
+    font-weight: bolder;
+    font-family: cursive;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: .8em;
+    font-style: normal;
+}
+#main-content{
+    margin-top: 50px;
+    font-size: 10px;
+    text-align: center;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list > a{
+    font-size: 0.3em;
+}
